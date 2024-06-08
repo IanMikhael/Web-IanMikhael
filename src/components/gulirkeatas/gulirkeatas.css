@@ -1,0 +1,82 @@
+.gulirkeatas {
+    position: fixed;
+    right: 2.5rem;
+    bottom: -20%;
+    background-color: var(--warna-judul);
+    opacity: 0.8;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.4rem;
+    z-index: var(--z-tooltip);
+    transition: .4s;
+}
+
+.ikon__gulirkeatas {
+    font-size: 1.5rem;
+    color: var(--warna-container);
+}
+
+.gulirkeatas:hover {
+    background-color: var(--warna-judul-gelap);
+}
+
+.perlihatkan {
+    bottom: 3rem;
+}
+
+/* Untuk perangkat besar */
+@media screen and (max-width: 992px) {
+    .gulirkeatas {
+        right: 1.5rem;
+        padding: 0.25rem 0.4rem;
+    }
+
+    .ikon__gulirkeatas {
+        font-size: 1.25rem;
+    }
+}
+
+/* Untuk tablet dan phablet */
+@media screen and (max-width: 768px) {
+    .gulirkeatas {
+        bottom: 4rem;
+    }
+}
+
+/* Untuk ponsel yang lebih besar */
+@media screen and (max-width: 576px) {
+    .gulirkeatas {
+        right: 1.25rem;
+        bottom: 3.5rem;
+        padding: 0.2rem 0.35rem;
+    }
+
+    .ikon__gulirkeatas {
+        font-size: 1.25rem;
+    }
+}
+
+/* Untuk ponsel kecil */
+@media screen and (max-width: 480px) {
+    .gulirkeatas {
+        right: 1rem;
+        bottom: 3rem;
+        padding: 0.2rem 0.35rem;
+    }
+
+    .ikon__gulirkeatas {
+        font-size: 1rem;
+    }
+}
+
+/* Untuk perangkat yang sangat kecil */
+@media screen and (max-width: 350px) {
+    .gulirkeatas {
+        right: 0.75rem;
+        bottom: 2.5rem;
+        padding: 0.15rem 0.3rem;
+    }
+
+    .ikon__gulirkeatas {
+        font-size: 0.875rem;
+    }
+}
