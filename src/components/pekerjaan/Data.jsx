@@ -128,7 +128,7 @@ export const dataProyek = [
     nama: "Website Portofolio Pribadi",
     kategori: "Website",
     tautan:
-      "https://github.com/fifovalle/UI-FORMULIR-PENGECEKAN-KATA-SANDI.git",
+      "",
   },
 
   // UI/UX
